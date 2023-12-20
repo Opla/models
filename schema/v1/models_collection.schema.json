@@ -1,7 +1,7 @@
 {
-    "$id": "https://opla.github.io/models/schema/v1/payload.schema.json",
+    "$id": "https://opla.github.io/models/schema/v1/models_collection.schema.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Payload",
+    "title": "Models collection",
     "type": "object",
     "properties": {
         "_version": {
@@ -19,7 +19,8 @@
             "type": "array",
             "items": {
                 "$ref": "https://opla.github.io/models/schema/v1/model.schema.json"
-            }
+            },
+            "uniqueItems": true
         }
     },
     "required": [
