@@ -1,0 +1,239 @@
+{
+    "$id": "https://opla.github.io/models/schema/v1/model.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Model",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "#/definitions/model"
+        }
+    ],
+    "properties": {
+        "_version": {
+            "const": "1.0.0"
+        }
+    },
+    "required": [
+        "_version",
+        "name"
+    ],
+    "definitions": {
+        "model": {
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "The name of the model"
+                },
+                "base_model": {
+                    "type": "string",
+                    "description": "The base model of the model"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "The description of the model"
+                },
+                "summary": {
+                    "type": "string",
+                    "description": "The summary of the model"
+                },
+                "version": {
+                    "type": "string",
+                    "description": "The version of the model"
+                },
+                "author": {
+                    "$ref": "#/definitions/person_or_org",
+                    "description": "The author of the model"
+                },
+                "publisher": {
+                    "$ref": "#/definitions/person_or_org",
+                    "description": "The publisher of the model"
+                },
+                "license": {
+                    "$ref": "#/definitions/license"
+                },
+                "tags": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    ]
+                },
+                "recommandations": {
+                    "type": "string",
+                    "description": "The recommandations of the model"
+                },
+                "recommended": {
+                    "type": "boolean",
+                    "description": "The model is recommended"
+                },
+                "deprecated": {
+                    "type": "boolean",
+                    "description": "The model is deprecated"
+                },
+                "model_type": {
+                    "type": "string",
+                    "description": "The type of the model",
+                    "enum": [
+                        "llama",
+                        "mistral"
+                    ]
+                },
+                "private": {
+                    "type": "boolean",
+                    "description": "The model is private"
+                },
+                "library": {
+                    "type": "string",
+                    "description": "The library of the model",
+                    "enum": [
+                        "PyTorch",
+                        "GGML"
+                    ]
+                },
+                "tensor_type": {
+                    "type": "string",
+                    "description": "The type of tensors used in the model",
+                    "enum": [
+                        "float32",
+                        "float16",
+                        "float8"
+                    ]
+                },
+                "quantization": {
+                    "type": "string",
+                    "description": "The quantization used in the model",
+                    "enum": [
+                        "Q2_K",
+                        "Q3_K_S",
+                        "Q3_K_M",
+                        "Q3_K_L",
+                        "Q4_0",
+                        "Q4_1",
+                        "Q4_K_S",
+                        "Q4_K_M",
+                        "Q5_0",
+                        "Q5_1",
+                        "Q5_K_S",
+                        "Q5_K_M",
+                        "Q6_K",
+                        "Q8_0"
+                    ]
+                },
+                "bits": {
+                    "type": "integer",
+                    "description": "The number of bits used in the model"
+                },
+                "size": {
+                    "type": "number",
+                    "description": "The size in Go of the model's file"
+                },
+                "max_ram": {
+                    "type": "number",
+                    "description": "The maximum RAM used for the model"
+                },
+                "repository": {
+                    "$ref": "#/definitions/url"
+                },
+                "download": {
+                    "$ref": "#/definitions/url"
+                },
+                "paper": {
+                    "$ref": "#/definitions/url"
+                },
+                "include": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/model"
+                    }
+                }
+            },
+            "required": [
+                "name"
+            ]
+        },
+        "url": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri"
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "url": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        },
+        "person_or_org": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "email": {
+                            "type": "string",
+                            "format": "email"
+                        },
+                        "url": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    }
+                }
+            ]
+        },
+        "license": {
+            "$id": "#/definitions/license",
+            "anyOf": [
+                {
+                    "type": "string",
+                    "enum": [
+                        "MIT",
+                        "Apache-2.0",
+                        "GPL-3.0",
+                        "BSD-3-Clause",
+                        "BSD-2-Clause",
+                        "LGPL-3.0",
+                        "LGPL-2.1",
+                        "MPL-2.0",
+                        "CDDL-1.0",
+                        "EPL-2.0",
+                        "AGPL-3.0",
+                        "Unlicense",
+                        "Other"
+                    ]
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "url": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

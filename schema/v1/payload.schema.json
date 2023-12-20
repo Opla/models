@@ -1,0 +1,31 @@
+{
+    "$id": "https://opla.github.io/models/schema/v1/payload.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Payload",
+    "type": "object",
+    "properties": {
+        "_version": {
+            "const": "1"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "models": {
+            "type": "array",
+            "items": {
+                "$ref": "https://opla.github.io/models/schema/v1/model.schema.json"
+            }
+        }
+    },
+    "required": [
+        "_version",
+        "created_at",
+        "updated_at",
+        "models"
+    ]
+}
