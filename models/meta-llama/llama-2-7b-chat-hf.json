@@ -27,6 +27,7 @@
     "model_type": "llama",
     "library": "PyTorch",
     "private": true,
+    "featured": true,
     "use_cases": " Llama 2 is intended for commercial and research use in English. Tuned models are intended for assistant-like chat, whereas pretrained models can be adapted for a variety of natural language generation tasks.",
     "out_of_scope_use_cases": "Use in any manner that violates applicable laws or regulations (including trade compliance laws).Use in languages other than English. Use in any other way that is prohibited by the Acceptable Use Policy and Licensing Agreement for Llama 2.",
     "bias_risks_limitations": "Llama-2-Chat models are trained on a large corpus of English text, which may contain bias. We recommend that you evaluate the model for your use case before deploying it.",

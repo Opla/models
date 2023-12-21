@@ -116,6 +116,10 @@
                     "type": "boolean",
                     "description": "The model is private"
                 },
+                "featured": {
+                    "type": "boolean",
+                    "description": "The model is featured"
+                },
                 "model_type": {
                     "type": "string",
                     "description": "The type of the model",
