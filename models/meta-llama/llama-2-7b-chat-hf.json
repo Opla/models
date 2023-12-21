@@ -39,7 +39,6 @@
     "include": [
         {
             "name": "Llama-2-7B-Chat-GGML",
-            "release_date": "2021-10-01",
             "publisher": {
                 "name": "TheBloke",
                 "url": "https://huggingface.co/TheBloke"
