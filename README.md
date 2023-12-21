@@ -1,4 +1,4 @@
-# models
+# models registry for Opla
 
 ## install
 ```pip install -r requirements.txt```
