@@ -20,13 +20,32 @@
     "definitions": {
         "model": {
             "properties": {
+                "id": {
+                    "type": "string",
+                    "format": "uuid",
+                    "description": "model's unique identifier"
+                },
                 "name": {
                     "type": "string",
                     "description": "The name of the model"
                 },
+                "created_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "creation date of the model"
+                },
+                "updated_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "updated date of the model"
+                },
                 "base_model": {
                     "type": "string",
                     "description": "The base model of the model"
+                },
+                "title": {
+                    "type": "string",
+                    "description": "The title of the model"
                 },
                 "description": {
                     "type": "string",
@@ -40,6 +59,10 @@
                     "type": "string",
                     "description": "The version of the model"
                 },
+                "creator": {
+                    "type": "string",
+                    "description": "The creator of the model, it is a unique identifier"
+                },
                 "author": {
                     "$ref": "#/definitions/person_or_org",
                     "description": "The author of the model"
@@ -50,6 +73,19 @@
                 },
                 "license": {
                     "$ref": "#/definitions/license"
+                },
+                "languages": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    ]
                 },
                 "tags": {
                     "anyOf": [
@@ -76,6 +112,10 @@
                     "type": "boolean",
                     "description": "The model is deprecated"
                 },
+                "private": {
+                    "type": "boolean",
+                    "description": "The model is private"
+                },
                 "model_type": {
                     "type": "string",
                     "description": "The type of the model",
@@ -83,10 +123,6 @@
                         "llama",
                         "mistral"
                     ]
-                },
-                "private": {
-                    "type": "boolean",
-                    "description": "The model is private"
                 },
                 "library": {
                     "type": "string",
@@ -137,10 +173,14 @@
                     "type": "number",
                     "description": "The maximum RAM used for the model"
                 },
+
                 "repository": {
                     "$ref": "#/definitions/url"
                 },
                 "download": {
+                    "$ref": "#/definitions/url"
+                },
+                "documentation": {
                     "$ref": "#/definitions/url"
                 },
                 "paper": {
