@@ -27,6 +27,7 @@
             "base_model": "TinyLlama/TinyLlama-1.1B-Chat-v0.6",
             "library": "GGUF",
             "quantization": "Q4_0",
+            "size": 0.637,
             "download": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v0.6/blob/main/ggml-model-q4_0.gguf"
         }
     ]
