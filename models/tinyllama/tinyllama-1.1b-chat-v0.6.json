@@ -22,7 +22,7 @@
     "repository": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v0.6",
     "include": [
         {
-            "name": "Llama-2-7B-Chat-GGML",
+            "name": "TinyLlama-1.1B-Chat-v0.6.q4_0.gguf",
             "description": "This repo contains GGUF format model files for Meta Llama 2's Llama 2 7B Chat.",
             "base_model": "TinyLlama/TinyLlama-1.1B-Chat-v0.6",
             "library": "GGUF",
