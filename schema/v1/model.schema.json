@@ -100,9 +100,9 @@
                         }
                     ]
                 },
-                "recommandations": {
+                "recommendations": {
                     "type": "string",
-                    "description": "The recommandations of the model"
+                    "description": "The recommendations of the model"
                 },
                 "recommended": {
                     "type": "boolean",
@@ -133,7 +133,7 @@
                     "description": "The library of the model",
                     "enum": [
                         "PyTorch",
-                        "GGML"
+                        "GGUF"
                     ]
                 },
                 "tensor_type": {

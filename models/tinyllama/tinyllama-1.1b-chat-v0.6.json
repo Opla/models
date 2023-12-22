@@ -25,7 +25,7 @@
             "name": "Llama-2-7B-Chat-GGML",
             "description": "This repo contains GGUF format model files for Meta Llama 2's Llama 2 7B Chat.",
             "base_model": "TinyLlama/TinyLlama-1.1B-Chat-v0.6",
-            "library": "GGML",
+            "library": "GGUF",
             "quantization": "Q4_0",
             "download": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v0.6/blob/main/ggml-model-q4_0.gguf"
         }

@@ -46,12 +46,12 @@
             "description": "This repo contains GGUF format model files for Meta Llama 2's Llama 2 7B Chat.",
             "base_model": "meta-llama/llama-2-7b-chat-hf",
             "model_type": "llama",
-            "library": "GGML",
+            "library": "GGUF",
             "repository": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q2_K.gguf",
             "include": [
                 {
                     "name": "llama-2-7b-chat.Q2_K.gguf",
-                    "use_case": "smallest, significant quality loss - not recommended for most purposes",
+                    "recommendations": "smallest, significant quality loss - not recommended for most purposes",
                     "quantization": "Q2_K",
                     "bits": 2,
                     "size": 2.83,
@@ -60,7 +60,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q3_K_S.gguf",
-                    "recommandations": "very small, high quality loss",
+                    "recommendations": "very small, high quality loss",
                     "quantization": "Q3_K_S",
                     "bits": 3,
                     "size": 2.95,
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q3_K_M.gguf",
-                    "recommandations": "very small, high quality loss",
+                    "recommendations": "very small, high quality loss",
                     "quantization": "Q3_K_M",
                     "bits": 3,
                     "size": 3.30,
@@ -78,7 +78,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q3_K_L.gguf",
-                    "recommandations": "small, substantial quality loss",
+                    "recommendations": "small, substantial quality loss",
                     "quantization": "Q3_K_L",
                     "bits": 3,
                     "size": 3.60,
@@ -87,7 +87,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q4_0.gguf",
-                    "recommandations": "legacy; small, very high quality loss - prefer using Q3_K_M",
+                    "recommendations": "legacy; small, very high quality loss - prefer using Q3_K_M",
                     "quantization": "Q4_0",
                     "bits": 4,
                     "size": 3.83,
@@ -97,7 +97,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q4_K_S.gguf",
-                    "recommandations": "small, greater quality loss",
+                    "recommendations": "small, greater quality loss",
                     "quantization": "Q4_K_S",
                     "bits": 4,
                     "size": 3.86,
@@ -106,7 +106,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q4_K_M.gguf",
-                    "recommandations": "medium, balanced quality - recommended",
+                    "recommendations": "medium, balanced quality - recommended",
                     "quantization": "Q4_K_M",
                     "bits": 4,
                     "size": 4.08,
@@ -116,7 +116,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q5_0.gguf",
-                    "recommandations": "legacy; medium, balanced quality - prefer using Q4_K_M",
+                    "recommendations": "legacy; medium, balanced quality - prefer using Q4_K_M",
                     "quantization": "Q5_0",
                     "bits": 5,
                     "size": 4.65,
@@ -126,7 +126,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q5_K_S.gguf",
-                    "recommandations": "large, low quality loss - recommended",
+                    "recommendations": "large, low quality loss - recommended",
                     "quantization": "Q5_K_S",
                     "bits": 5,
                     "size": 4.65,
@@ -136,7 +136,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q5_K_M.gguf",
-                    "recommandations": "large, very low quality loss - recommended",
+                    "recommendations": "large, very low quality loss - recommended",
                     "quantization": "Q5_K_M",
                     "bits": 5,
                     "size": 4.78,
@@ -146,7 +146,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q6_K.gguf",
-                    "recommandations": "very large, extremely low quality loss",
+                    "recommendations": "very large, extremely low quality loss",
                     "quantization": "Q6_K",
                     "bits": 6,
                     "size": 5.53,
@@ -155,7 +155,7 @@
                 },
                 {
                     "name": "llama-2-7b-chat.Q8_0.gguf",
-                    "recommandations": "very large, extremely low quality loss",
+                    "recommendations": "very large, extremely low quality loss",
                     "quantization": "Q8_0",
                     "bits": 8,
                     "size": 7.16,
