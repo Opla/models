@@ -125,7 +125,8 @@
                     "description": "The type of the model",
                     "enum": [
                         "llama",
-                        "mistral"
+                        "mistral",
+                        "phi-msft"
                     ]
                 },
                 "library": {
