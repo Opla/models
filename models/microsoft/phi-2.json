@@ -1,0 +1,36 @@
+{
+    "_version": "1.0.0",
+    "name": "phi-2",
+    "creator": "microsoft",
+    "title": "Phi-2",
+    "version": "2.0.0",
+    "description": "Phi-2 is a Transformer with 2.7 billion parameters. It was trained using the same data sources as Phi-1.5, augmented with a new data source that consists of various NLP synthetic texts and filtered websites (for safety and educational value). When assessed against benchmarks testing common sense, language understanding, and logical reasoning, Phi-2 showcased a nearly state-of-the-art performance among models with less than 13 billion parameters.",
+    "author": "Microsoft",
+    "publisher": {
+        "name": "Microsoft",
+        "url": "https://huggingface.co/microsoft"
+    },
+    "license": "MIT",
+    "tags": "transformer safetensors phi-msft text-generation nlp code custom_code en license:mit autotrain_compatible has_space region:us",
+    "task_type": ["text-generation"],
+    "languages": [
+        "en"
+    ],
+    "model_size": "2.78b",
+    "context_size": 2048,
+    "tensor_type": "float16",
+    "base_model": "none",
+    "model_type": "phi-msft",
+    "library": "PyTorch",
+    "private": false,
+    "featured": true,
+    "use_cases": "Given the nature of the training data, the Phi-2 model is best suited for prompts using the QA format, the chat format, and the code format.",
+    "out_of_scope_use_cases": "Limited Scope for code: Majority of Phi-2 training data is based in Python and use common packages such as 'typing, math, random, collections, datetime, itertools'. If the model generates Python scripts that utilize other packages or scripts in other languages, we strongly recommend users manually verify all API uses.",
+    "bias_risks_limitations": "Generate Inaccurate Code and Facts: The model may produce incorrect code snippets and statements. Users should treat these outputs as suggestions or starting points, not as definitive or accurate solutions.",
+    
+    "repository": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+    "download": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+    "paper": "https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/",
+    
+    "include": []
+}
