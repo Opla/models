@@ -29,9 +29,8 @@
     "use_cases": "Given the nature of the training data, the Phi-2 model is best suited for prompts using the QA format, the chat format, and the code format.",
     "out_of_scope_use_cases": "Limited Scope for code: Majority of Phi-2 training data is based in Python and use common packages such as 'typing, math, random, collections, datetime, itertools'. If the model generates Python scripts that utilize other packages or scripts in other languages, we strongly recommend users manually verify all API uses.",
     "bias_risks_limitations": "Generate Inaccurate Code and Facts: The model may produce incorrect code snippets and statements. Users should treat these outputs as suggestions or starting points, not as definitive or accurate solutions.",
-    "repository": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
-    "download": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
-    "paper": "https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/",
+    "repository": "https://huggingface.co/microsoft/phi-2",
+    "download": "https://huggingface.co/microsoft/phi-2",
     "include": [
         {
             "name": "phi-2.Q2_K.gguf",
