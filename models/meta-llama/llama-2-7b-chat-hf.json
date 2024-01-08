@@ -1,5 +1,6 @@
 {
     "_version": "1.0.0",
+    "id": "meta-llama/Llama2-7b-chat-hf",
     "name": "llama2-7b-chat-hf",
     "creator": "meta-llama",
     "title": "Llama 2 7B Chat",

@@ -1,5 +1,6 @@
 {
     "_version": "1.0.0",
+    "id": "TinyLlama/TinyLlama-1.1B-Chat-v0.6",
     "name": "tinyllama-1.1b-chat-v0.6",
     "creator": "TinyLlama",
     "title": "TinyLlama-1.1B",
