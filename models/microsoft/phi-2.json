@@ -40,7 +40,7 @@
             "bits": 2,
             "size": 1.17,
             "max_ram": 3.67,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q2_K.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q2_K.gguf"
         },
         {
             "name": "phi-2.Q3_K_S.gguf",
@@ -49,7 +49,7 @@
             "bits": 3,
             "size": 1.25,
             "max_ram": 3.75,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q3_K_S.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q3_K_S.gguf"
         },
         {
             "name": "phi-2.Q3_K_M.gguf",
@@ -58,7 +58,7 @@
             "bits": 3,
             "size": 1.48,
             "max_ram": 3.98,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q3_K_M.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q3_K_M.gguf"
         },
         {
             "name": "phi-2.Q3_K_L.gguf",
@@ -67,7 +67,7 @@
             "bits": 3,
             "size": 1.6,
             "max_ram": 4.1,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q3_K_L.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q3_K_L.gguf"
         },
         {
             "name": "phi-2.Q4_0.gguf",
@@ -77,7 +77,7 @@
             "size": 1.6,
             "max_ram": 4.1,
             "deprecated": true,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q4_0.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q4_0.gguf"
         },
         {
             "name": "phi-2.Q4_K_S.gguf",
@@ -86,7 +86,7 @@
             "bits": 4,
             "size": 1.62,
             "max_ram": 4.12,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q4_K_S.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q4_K_S.gguf"
         },
         {
             "name": "phi-2.Q4_K_M.gguf",
@@ -96,7 +96,7 @@
             "size": 1.79,
             "max_ram": 4.29,
             "recommended": true,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q4_K_M.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q4_K_M.gguf"
         },
         {
             "name": "phi-2.Q5_0.gguf",
@@ -106,7 +106,7 @@
             "size": 1.93,
             "max_ram": 4.43,
             "deprecated": true,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q5_0.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q5_0.gguf"
         },
         {
             "name": "phi-2.Q5_K_S.gguf",
@@ -116,7 +116,7 @@
             "size": 1.93,
             "max_ram": 4.43,
             "recommended": true,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q5_K_S.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q5_K_S.gguf"
         },
         {
             "name": "phi-2.Q5_K_M.gguf",
@@ -126,7 +126,7 @@
             "size": 2.07,
             "max_ram": 4.57,
             "recommended": true,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q5_K_M.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q5_K_M.gguf"
         },
         {
             "name": "phi-2.Q6_K.gguf",
@@ -135,7 +135,7 @@
             "bits": 6,
             "size": 2.29,
             "max_ram": 4.79,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q6_K.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q6_K.gguf"
         },
         {
             "name": "phi-2.Q8_0.gguf",
@@ -144,7 +144,7 @@
             "bits": 8,
             "size": 2.96,
             "max_ram": 5.46,
-            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/blob/main/phi-2.Q8_0.gguf"
+            "download": "https://huggingface.co/TheBloke/phi-2-GGUF/resolve/main/phi-2.Q8_0.gguf"
         }
     ]
 }

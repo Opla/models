@@ -48,7 +48,7 @@
             "base_model": "meta-llama/llama-2-7b-chat-hf",
             "model_type": "llama",
             "library": "GGUF",
-            "repository": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q2_K.gguf",
+            "repository": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q2_K.gguf",
             "include": [
                 {
                     "name": "llama-2-7b-chat.Q2_K.gguf",
@@ -57,7 +57,7 @@
                     "bits": 2,
                     "size": 2.83,
                     "max_ram": 5.33,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q2_K.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q2_K.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q3_K_S.gguf",
@@ -66,7 +66,7 @@
                     "bits": 3,
                     "size": 2.95,
                     "max_ram": 5.45,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q3_K_S.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_S.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q3_K_M.gguf",
@@ -75,7 +75,7 @@
                     "bits": 3,
                     "size": 3.30,
                     "max_ram": 5.80,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q3_K_M.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_M.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q3_K_L.gguf",
@@ -84,7 +84,7 @@
                     "bits": 3,
                     "size": 3.60,
                     "max_ram": 6.10,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q3_K_L.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q3_K_L.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q4_0.gguf",
@@ -94,7 +94,7 @@
                     "size": 3.83,
                     "max_ram": 6.33,
                     "deprecated": true,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_0.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_0.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q4_K_S.gguf",
@@ -103,7 +103,7 @@
                     "bits": 4,
                     "size": 3.86,
                     "max_ram": 6.36,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_S.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q4_K_M.gguf",
@@ -113,7 +113,7 @@
                     "size": 4.08,
                     "max_ram": 6.58,
                     "recommended": true,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q5_0.gguf",
@@ -123,7 +123,7 @@
                     "size": 4.65,
                     "max_ram": 7.15,
                     "deprecated": true,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q5_0.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_0.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q5_K_S.gguf",
@@ -133,7 +133,7 @@
                     "size": 4.65,
                     "max_ram": 7.15,
                     "recommended": true,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q5_K_S.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_K_S.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q5_K_M.gguf",
@@ -143,7 +143,7 @@
                     "size": 4.78,
                     "max_ram": 7.28,
                     "recommended": true,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q5_K_M.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_K_M.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q6_K.gguf",
@@ -152,7 +152,7 @@
                     "bits": 6,
                     "size": 5.53,
                     "max_ram": 8.03,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q6_K.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q6_K.gguf"
                 },
                 {
                     "name": "llama-2-7b-chat.Q8_0.gguf",
@@ -161,7 +161,7 @@
                     "bits": 8,
                     "size": 7.16,
                     "max_ram": 9.66,
-                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q8_0.gguf"
+                    "download": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q8_0.gguf"
                 }
             ]
         }
