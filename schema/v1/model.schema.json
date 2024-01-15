@@ -197,6 +197,10 @@
                     "items": {
                         "$ref": "#/definitions/model"
                     }
+                },
+                "system": {
+                    "type": "string",
+                    "description": "The system prompt is a textual intruction to initialize a conversation using the model"
                 }
             },
             "required": [
