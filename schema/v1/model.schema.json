@@ -11,6 +11,9 @@
     "properties": {
         "_version": {
             "const": "1.0.0"
+        },
+        "_schema": {
+            "const": "opla.ai/llm/model"
         }
     },
     "required": [
@@ -201,6 +204,10 @@
                 "system": {
                     "type": "string",
                     "description": "The system prompt is a textual intruction to initialize a conversation using the model"
+                },
+                "context_window": {
+                    "type": "integer",
+                    "description": "The context window is the maximum total tokens available (input+output) to produce a response"
                 }
             },
             "required": [
