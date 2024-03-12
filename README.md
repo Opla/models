@@ -5,3 +5,6 @@
 
 ## validate models
 ```python scripts/validate.py```
+
+## build models
+```python scripts/build.py```
