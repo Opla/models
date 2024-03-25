@@ -1,0 +1,143 @@
+{
+    "_version": "1.0.0",
+    "id": "google/gemma-7b",
+    "name": "gemma-7b",
+    "creator": "google",
+    "title": "Gemma 7B",
+    "version": "1.0.0",
+    "description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models. They are text-to-text, decoder-only large language models, available in English, with open weights, pre-trained variants, and instruction-tuned variants. Gemma models are well-suited for a variety of text generation tasks, including question answering, summarization, and reasoning. Their relatively small size makes it possible to deploy them in environments with limited resources such as a laptop, desktop or your own cloud infrastructure, democratizing access to state of the art AI models and helping foster innovation for everyone.",
+    "author": "Google",
+    "publisher": {
+        "name": "Google",
+        "url": "https://huggingface.co/google"
+    },
+    "license": "Other",
+    "tags": "transformer safetensors gguf gemma text-generation license:other autotrain_compatible endpoints_compatible has_space text-generation-inference region:us",
+    "task_type": [
+        "text-generation"
+    ],
+    "languages": [
+        "en"
+    ],
+    "model_size": "2.78b",
+    "context_size": 2048,
+    "tensor_type": "float16",
+    "base_model": "none",
+    "model_type": "gemma",
+    "library": "transformers",
+    "private": true,
+    "featured": true,
+     "repository": "https://huggingface.co/google/gemma-7b",
+    "include": [
+        {
+            "name": "gemma-7b.Q2_K.gguf",
+            "recommendations": "smallest, significant quality loss - not recommended for most purposes",
+            "quantization": "Q2_K",
+            "bits": 2,
+            "size": 3.48,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q2_K.gguf"
+        },
+        {
+            "name": "gemma-7b.Q3_K_S.gguf",
+            "recommendations": "very small, high quality loss",
+            "quantization": "Q3_K_S",
+            "bits": 3,
+            "size": 3.98,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q3_K_S.gguf"
+        },
+        {
+            "name": "gemma-7b.Q3_K_M.gguf",
+            "recommendations": "very small, high quality loss",
+            "quantization": "Q3_K_M",
+            "bits": 3,
+            "size": 4.37,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q3_K_M.gguf"
+        },
+        {
+            "name": "gemma-7b.Q3_K_L.gguf",
+            "recommendations": "small, substantial quality loss",
+            "quantization": "Q3_K_L",
+            "bits": 3,
+            "size": 4.71,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q3_K_L.gguf"
+        },
+        {
+            "name": "gemma-7b.Q4_0.gguf",
+            "recommendations": "legacy; small, very high quality loss - prefer using Q3_K_M",
+            "quantization": "Q4_0",
+            "bits": 4,
+            "size": 5.01,
+            "deprecated": true,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q4_0.gguf"
+        },
+        {
+            "name": "gemma-7b.Q4_K_S.gguf",
+            "recommendations": "small, greater quality loss",
+            "quantization": "Q4_K_S",
+            "bits": 4,
+            "size": 5.05,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q4_K_S.gguf"
+        },
+        {
+            "name": "gemma-7b.Q4_K_M.gguf",
+            "recommendations": "medium, balanced quality - recommended",
+            "quantization": "Q4_K_M",
+            "bits": 4,
+            "size": 5.33,
+            "recommended": true,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q4_K_M.gguf"
+        },
+        {
+            "name": "gemma-7b.Q5_0.gguf",
+            "recommendations": "legacy; medium, balanced quality - prefer using Q4_K_M",
+            "quantization": "Q5_0",
+            "bits": 5,
+            "size": 5.98,
+            "deprecated": true,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q5_0.gguf"
+        },
+        {
+            "name": "gemma-7b.Q5_1.gguf",
+            "recommendations": "legacy; medium, balanced quality - prefer using Q4_K_M",
+            "quantization": "Q5_1",
+            "bits": 5,
+            "size": 6.47,
+            "deprecated": true,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q5_1.gguf"
+        },
+        {
+            "name": "gemma-7b.Q5_K_S.gguf",
+            "recommendations": "large, low quality loss - recommended",
+            "quantization": "Q5_K_S",
+            "bits": 5,
+            "size": 5.98,
+            "recommended": true,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q5_K_S.gguf"
+        },
+        {
+            "name": "gemma-7b.Q5_K_M.gguf",
+            "recommendations": "large, very low quality loss - recommended",
+            "quantization": "Q5_K_M",
+            "bits": 5,
+            "size": 6.14,
+            "recommended": true,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q5_K_M.gguf"
+        },
+        {
+            "name": "gemma-7b.Q6_K.gguf",
+            "recommendations": "very large, extremely low quality loss",
+            "quantization": "Q6_K",
+            "bits": 6,
+            "size": 7.01,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q6_K.gguf"
+        },
+        {
+            "name": "gemma-7b.Q8_0.gguf",
+            "recommendations": "very large, extremely low quality loss",
+            "quantization": "Q8_0",
+            "bits": 8,
+            "size": 9.08,
+            "download": "https://huggingface.co/mlabonne/gemma-7b-GGUF/resolve/main/gemma-7b.Q8_0.gguf"
+        }
+    ]
+}
