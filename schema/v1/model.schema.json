@@ -130,7 +130,8 @@
                     "enum": [
                         "llama",
                         "mistral",
-                        "phi-msft"
+                        "phi-msft",
+                        "gemma"
                     ]
                 },
                 "library": {
