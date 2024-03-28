@@ -23,7 +23,13 @@ collection = {
     "_version": "1",
     "created_at": datetime.now(tz=UTC).strftime("%Y-%m-%dT%H:%M:%S%.%fZ"),
     "updated_at": datetime.now(tz=UTC).strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
-    "models": []
+    "models": [],
+    "featured": [{
+        "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.6"
+    }],
+    "default": {
+        "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.6"
+    }
 }
 
 def add_model(model):

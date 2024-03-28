@@ -21,6 +21,38 @@
                 "$ref": "https://opla.github.io/models/schema/v1/model.schema.json"
             },
             "uniqueItems": true
+        },
+        "featured": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "model_id": {
+                        "type": "string"
+                    },
+                    "headline": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "model_id"
+                ]
+            },
+            "uniqueItems": true
+        },
+        "default": {
+            "type": "object",
+            "properties": {
+                "model_id": {
+                    "type": "string"
+                },
+                "headline": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "model_id"
+            ]
         }
     },
     "required": [
