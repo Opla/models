@@ -1,0 +1,166 @@
+{
+    "_version": "1.0.0",
+    "id": "mistralai/Mistral-7B-Instruct-v0.1",
+    "name": "mistral-7b-v0.1",
+    "creator": "mistralai",
+    "title": "Mistral 7B v0.1",
+    "version": "0.1.0",
+    "description": "The Mistral-7B-v0.1 Large Language Model (LLM) is a pretrained generative text model with 7 billion parameters. Mistral-7B-v0.1 outperforms Llama 2 13B on all benchmarks we tested.",
+    "author": "mistralai",
+    "publisher": {
+        "name": "mistralai",
+        "url": "https://huggingface.co/mistralai"
+    },
+    "license": "Apache-2.0",
+    "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "mistral",
+        "text-generation",
+        "finetuned",
+        "conversational",
+        "arxiv:2310.06825",
+        "license:apache-2.0",
+        "autotrain_compatible",
+        "endpoints_compatible",
+        "has_space",
+        "text-generation-inference",
+        "region:us"
+    ],
+    "task_type": [
+        "conversational"
+    ],
+    "languages": [
+        "en"
+    ],
+    "model_size": "7b",
+    "context_size": 4096,
+    "tensor_type": "bfloat16",
+    "base_model": "none",
+    "model_type": "mistral",
+    "library": "transformers",
+    "private": false,
+    "featured": true,
+    "bias_risks_limitations": "Mistral 7B is a pretrained base model and therefore does not have any moderation mechanisms.",
+    "repository": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+    "download": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+    "paper": "https://mistral.ai/news/announcing-mistral-7b/",
+    "include": [
+        {
+            "name": "Mistral-7B-v0.1-GGUF",
+            "publisher": {
+                "name": "TheBloke",
+                "url": "https://huggingface.co/TheBloke"
+            },
+            "description": "This repo contains GGUF format model files for Mistral AI's Mistral 7B v0.1.",
+            "base_model": "mistralai/Mistral-7B-v0.1",
+            "model_type": "mistral",
+            "library": "GGUF",
+            "repository": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q2_K.gguf",
+            "include": [
+                {
+                    "name": "mistral-7b-v0.1.Q2_K.gguf",
+                    "recommendations": "smallest, significant quality loss - not recommended for most purposes",
+                    "quantization": "Q2_K",
+                    "bits": 2,
+                    "size": 3.08,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q2_K.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q3_K_S.gguf",
+                    "recommendations": "very small, high quality loss",
+                    "quantization": "Q3_K_S",
+                    "bits": 3,
+                    "size": 3.16,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q3_K_S.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q3_K_M.gguf",
+                    "recommendations": "very small, high quality loss",
+                    "quantization": "Q3_K_M",
+                    "bits": 3,
+                    "size": 3.52,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q3_K_M.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q3_K_L.gguf",
+                    "recommendations": "small, substantial quality loss",
+                    "quantization": "Q3_K_L",
+                    "bits": 3,
+                    "size": 3.82,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q3_K_L.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q4_0.gguf",
+                    "recommendations": "legacy; small, very high quality loss - prefer using Q3_K_M",
+                    "quantization": "Q4_0",
+                    "bits": 4,
+                    "size": 4.11,
+                    "deprecated": true,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q4_0.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q4_K_S.gguf",
+                    "recommendations": "small, greater quality loss",
+                    "quantization": "Q4_K_S",
+                    "bits": 4,
+                    "size": 4.14,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q4_K_S.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q4_K_M.gguf",
+                    "recommendations": "medium, balanced quality - recommended",
+                    "quantization": "Q4_K_M",
+                    "bits": 4,
+                    "size": 4.37,
+                    "recommended": true,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q4_K_M.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q5_0.gguf",
+                    "recommendations": "legacy; medium, balanced quality - prefer using Q4_K_M",
+                    "quantization": "Q5_0",
+                    "bits": 5,
+                    "size": 5,
+                    "deprecated": true,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q5_0.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q5_K_S.gguf",
+                    "recommendations": "large, low quality loss - recommended",
+                    "quantization": "Q5_K_S",
+                    "bits": 5,
+                    "size": 5,
+                    "recommended": true,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q5_K_S.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q5_K_M.gguf",
+                    "recommendations": "large, very low quality loss - recommended",
+                    "quantization": "Q5_K_M",
+                    "bits": 5,
+                    "size": 5.13,
+                    "recommended": true,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q5_K_M.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q6_K.gguf",
+                    "recommendations": "very large, extremely low quality loss",
+                    "quantization": "Q6_K",
+                    "bits": 6,
+                    "size": 5.94,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q6_K.gguf"
+                },
+                {
+                    "name": "mistral-7b-v0.1.Q8_0.gguf",
+                    "recommendations": "very large, extremely low quality loss",
+                    "quantization": "Q8_0",
+                    "bits": 8,
+                    "size": 7.7,
+                    "download": "https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q8_0.gguf"
+                }
+            ]
+        }
+    ]
+}
