@@ -1,0 +1,159 @@
+{
+    "_version": "1.0.0",
+    "id": "stabilityai/stablelm-2-zephyr-1_6b",
+    "name": "stablelm-2-zephyr-1_6b",
+    "creator": "stabilityai",
+    "title": "StableLM 2 Zephyr 1.6B",
+    "version": "0.1.0",
+    "description": "Stable LM 2 Zephyr 1.6B is a 1.6 billion parameter instruction tuned language model inspired by HugginFaceH4's Zephyr 7B training pipeline. The model is trained on a mix of publicly available datasets and synthetic datasets, utilizing Direct Preference Optimization (DPO).",
+    "author": "stabilityai",
+    "publisher": {
+        "name": "stabilityai",
+        "url": "https://huggingface.co/stabilityai"
+    },
+    "license": {
+        "name": "STABILITY AI NON-COMMERCIAL RESEARCH COMMUNITY LICENSE AGREEMENT",
+        "url": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b/blob/main/LICENSE"
+    },
+    "tags": [
+        "transformers",
+      "safetensors",
+      "gguf",
+      "stablelm",
+      "text-generation",
+      "causal-lm",
+      "conversational",
+      "en",
+      "dataset:HuggingFaceH4/ultrachat_200k",
+      "dataset:allenai/ultrafeedback_binarized_cleaned",
+      "dataset:meta-math/MetaMathQA",
+      "dataset:WizardLM/WizardLM_evol_instruct_V2_196k",
+      "dataset:openchat/openchat_sharegpt4_dataset",
+      "dataset:LDJnr/Capybara",
+      "dataset:Intel/orca_dpo_pairs",
+      "dataset:hkust-nlp/deita-10k-v0",
+      "arxiv:2305.18290",
+      "license:other",
+      "autotrain_compatible",
+      "endpoints_compatible",
+      "has_space",
+      "region:us"
+    ],
+    "task_type": [
+        "conversational"
+    ],
+    "languages": [
+        "en"
+    ],
+    "model_size": "1.64b",
+    "context_size": 4096,
+    "tensor_type": "float16",
+    "base_model": "none",
+    "model_type": "transformer",
+    "library": "transformers",
+    "private": false,
+    "featured": true,
+    "bias_risks_limitations": "Mistral 7B is a pretrained base model and therefore does not have any moderation mechanisms.",
+    "repository": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b",
+    "download": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b",
+    "paper": "https://drive.google.com/file/d/1JYJHszhS8EFChTbNAf8xmqhKjogWRrQF/view?usp=sharing",
+    "include": [
+        {
+            "name": "stablelm-2-zephyr-1_6b-GGUF",
+            "publisher": {
+                "name": "brittlewis12",
+                "url": "https://huggingface.co/brittlewis12"
+            },
+            "description": "This repo contains GGUF format model files for Stability AI’s StableLM 2 Zephyr 1.6B.",
+            "base_model": "stabilityai/stablelm-2-zephyr-1_6b",
+            "model_type": "mistral",
+            "library": "GGUF",
+            "repository": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q2_K.gguf",
+            "include": [
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q2_K.gguf",
+                    "recommendations": "smallest, significant quality loss - not recommended for most purposes",
+                    "quantization": "Q2_K",
+                    "bits": 2,
+                    "size": 0.694,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q2_K.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q3_K_S.gguf",
+                    "recommendations": "very small, high quality loss",
+                    "quantization": "Q3_K_S",
+                    "bits": 3,
+                    "size": 0.792,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q3_K_S.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q3_K_M.gguf",
+                    "recommendations": "very small, high quality loss",
+                    "quantization": "Q3_K_M",
+                    "bits": 3,
+                    "size": 0.858,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q3_K_M.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q3_K_L.gguf",
+                    "recommendations": "small, substantial quality loss",
+                    "quantization": "Q3_K_L",
+                    "bits": 3,
+                    "size": 0.915,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q3_K_L.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q4_K_S.gguf",
+                    "recommendations": "small, greater quality loss",
+                    "quantization": "Q4_K_S",
+                    "bits": 4,
+                    "size": 0.989,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q4_K_S.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q4_K_M.gguf",
+                    "recommendations": "medium, balanced quality - recommended",
+                    "quantization": "Q4_K_M",
+                    "bits": 4,
+                    "size": 1.03,
+                    "recommended": true,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q4_K_M.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q5_K_S.gguf",
+                    "recommendations": "large, low quality loss - recommended",
+                    "quantization": "Q5_K_S",
+                    "bits": 5,
+                    "size": 1.16,
+                    "recommended": true,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q5_K_S.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q5_K_M.gguf",
+                    "recommendations": "large, very low quality loss - recommended",
+                    "quantization": "Q5_K_M",
+                    "bits": 5,
+                    "size": 1.19,
+                    "recommended": true,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q5_K_M.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q6_K.gguf",
+                    "recommendations": "very large, extremely low quality loss",
+                    "quantization": "Q6_K",
+                    "bits": 6,
+                    "size": 1.35,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q6_K.gguf"
+                },
+                {
+                    "name": "stablelm-2-zephyr-1_6b.Q8_0.gguf",
+                    "recommendations": "very large, extremely low quality loss",
+                    "quantization": "Q8_0",
+                    "bits": 8,
+                    "size": 1.75,
+                    "download": "https://huggingface.co/brittlewis12/stablelm-2-zephyr-1_6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b.Q8_0.gguf"
+                }
+            ]
+        }
+    ]
+}
