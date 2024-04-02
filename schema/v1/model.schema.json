@@ -131,7 +131,8 @@
                         "llama",
                         "mistral",
                         "phi-msft",
-                        "gemma"
+                        "gemma",
+                        "transformer"
                     ]
                 },
                 "library": {
