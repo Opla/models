@@ -182,6 +182,14 @@
                     "type": "number",
                     "description": "The size in Go of the model's file"
                 },
+                "file_size": {
+                    "type": "number",
+                    "description": "The full size of the model's file"
+                },
+                "sha": {
+                    "type": "number",
+                    "description": "The full size of the model's file"
+                },
                 "max_ram": {
                     "type": "number",
                     "description": "The maximum RAM used for the model"
