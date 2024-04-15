@@ -187,7 +187,7 @@
                     "description": "The full size of the model's file"
                 },
                 "sha": {
-                    "type": "number",
+                    "type": "string",
                     "description": "The full size of the model's file"
                 },
                 "max_ram": {
