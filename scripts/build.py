@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from datetime import UTC, datetime
+from datetime import timezone, datetime
 import json
 import os
 from jsonschema import validate
@@ -21,8 +21,8 @@ import json
 
 collection = {
     "_version": "1",
-    "created_at": datetime.now(tz=UTC).strftime("%Y-%m-%dT%H:%M:%S%.%fZ"),
-    "updated_at": datetime.now(tz=UTC).strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
+    "created_at": datetime.now(tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S%.%fZ"),
+    "updated_at": datetime.now(tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
     "models": [],
     "featured": [{
         "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.6"
