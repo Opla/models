@@ -1,0 +1,155 @@
+{
+    "_version": "1.0.0",
+    "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "name": "Meta-Llama-3-8B-Instruct",
+    "creator": "meta-llama",
+    "title": "Llama 3 8B Instruct",
+    "version": "3.0.0",
+    "summary": "Llama 3 8B Instruct is a large language model fine-tuned for dialogue use cases.",
+    "description": "Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes. The Llama 3 instruction tuned models are optimized for dialogue use cases and outperform many of the available open source chat models on common industry benchmarks. Further, in developing these models, we took great care to optimize helpfulness and safety. ",
+    "author": "AI Research by Meta",
+    "publisher": {
+        "name": "meta-llama",
+        "url": "https://huggingface.co/meta-llama"
+    },
+    "license": {
+        "name": "Meta Research License Agreement v1.0"
+    },
+    "tags": "llama llama2 facebook meta english",
+    
+    "task_type": ["conversational"],
+    "languages": [
+        "en"
+    ],
+    "model_size": "8.03b",
+    "context_size": 8192,
+    "tensor_type": "bfloat16",
+    "base_model": "none",
+    "model_type": "llama",
+    "library": "PyTorch",
+    "private": true,
+    "featured": true,
+    "use_cases": "Llama 3 is intended for commercial and research use in English. Instruction tuned models are intended for assistant-like chat, whereas pretrained models can be adapted for a variety of natural language generation tasks.",
+    "out_of_scope_use_cases": "Use in any manner that violates applicable laws or regulations (including trade compliance laws). Use in any other way that is prohibited by the Acceptable Use Policy and Llama 3 Community License. Use in languages other than English**.",
+    "bias_risks_limitations": "As outlined in the Responsible Use Guide, some trade-off between model helpfulness and model alignment is likely unavoidable. Developers should exercise discretion about how to weigh the benefits of alignment and helpfulness for their specific use case and audience. Developers should be mindful of residual risks when using Llama models and leverage additional safety tools as needed to reach the right safety bar for their use case.",
+    
+    "repository": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+    "download": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",    
+    "include": [
+        {
+            "name": "Meta-Llama-3-8B-Instruct-GGUF",
+            "publisher": {
+                "name": "QuantFactory",
+                "url": "https://huggingface.co/QuantFactory"
+            },
+            "description": "This is GGUF quantized version of meta-llama/Meta-Llama-3-8B-Instruct created using llama.cpp",
+            "base_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+            "model_type": "llama",
+            "library": "GGUF",
+            "repository": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF",
+            "include": [
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q2_K.gguf",
+                    "recommendations": "smallest, significant quality loss - not recommended for most purposes",
+                    "quantization": "Q2_K",
+                    "bits": 2,
+                    "size": 3.18,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q2_K.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q3_K_S.gguf",
+                    "recommendations": "very small, high quality loss",
+                    "quantization": "Q3_K_S",
+                    "bits": 3,
+                    "size": 3.67,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_S.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q3_K_M.gguf",
+                    "recommendations": "very small, high quality loss",
+                    "quantization": "Q3_K_M",
+                    "bits": 3,
+                    "size": 4.02,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_M.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q3_K_L.gguf",
+                    "recommendations": "small, substantial quality loss",
+                    "quantization": "Q3_K_L",
+                    "bits": 3,
+                    "size": 4.32,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q3_K_L.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q4_0.gguf",
+                    "recommendations": "legacy; small, very high quality loss - prefer using Q3_K_M",
+                    "quantization": "Q4_0",
+                    "bits": 4,
+                    "size": 4.66,
+                    "deprecated": true,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_0.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q4_K_S.gguf",
+                    "recommendations": "small, greater quality loss",
+                    "quantization": "Q4_K_S",
+                    "bits": 4,
+                    "size": 4.69,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_K_S.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf",
+                    "recommendations": "medium, balanced quality - recommended",
+                    "quantization": "Q4_K_M",
+                    "bits": 4,
+                    "size": 4.92,
+                    "recommended": true,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q5_0.gguf",
+                    "recommendations": "legacy; medium, balanced quality - prefer using Q4_K_M",
+                    "quantization": "Q5_0",
+                    "bits": 5,
+                    "size": 5.6,
+                    "deprecated": true,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_0.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q5_K_S.gguf",
+                    "recommendations": "large, low quality loss - recommended",
+                    "quantization": "Q5_K_S",
+                    "bits": 5,
+                    "size": 5.6,
+                    "recommended": true,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_S.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q5_K_M.gguf",
+                    "recommendations": "large, very low quality loss - recommended",
+                    "quantization": "Q5_K_M",
+                    "bits": 5,
+                    "size": 5.73,
+                    "recommended": true,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q5_K_M.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q6_K.gguf",
+                    "recommendations": "very large, extremely low quality loss",
+                    "quantization": "Q6_K",
+                    "bits": 6,
+                    "size": 6.6,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q6_K.gguf"
+                },
+                {
+                    "name": "Meta-Llama-3-8B-Instruct.Q8_0.gguf",
+                    "recommendations": "very large, extremely low quality loss",
+                    "quantization": "Q8_0",
+                    "bits": 8,
+                    "size": 8.54,
+                    "download": "https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q8_0.gguf"
+                }
+            ]
+        }
+    ]
+}
