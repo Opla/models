@@ -40,7 +40,7 @@
             "size": 7.64,
             "sha": "8fb08713c270f80793074cf30964e61cc2bccd6b4e1e5fd73a895a9bbecb7ac0",
             "file_size": 7643301888,
-            "download": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/raw/main/Phi-3-mini-4k-instruct-fp16.gguf"
+            "download": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/resolve/main/Phi-3-mini-4k-instruct-fp16.gguf"
         },
         {
             "name": "Phi-3-mini-4k-instruct-q4.gguf",
@@ -51,7 +51,7 @@
             "recommended": true,
             "sha": "1cd9a9df07350196623f93bf4829cf228959e07ad32f787b8fdd7f5956f5b9de",
             "file_size": 2318919200,
-            "download": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/blob/main/Phi-3-mini-4k-instruct-q4.gguf"
+            "download": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/resolve/main/Phi-3-mini-4k-instruct-q4.gguf"
         },
         {
             "name": "phi-3-mini-4k-instruct.Q2_K.gguf",
