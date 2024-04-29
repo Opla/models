@@ -1,0 +1,182 @@
+{
+    "_version": "1.0.0",
+    "id": "microsoft/Phi-3-mini-4k-instruct-gguf",
+    "name": "Phi-3-mini-4k-instruct-gguf",
+    "creator": "microsoft",
+    "title": "Phi-3 mini 4k instruct",
+    "version": "3.0.0",
+    "description": "Phi-3 is a Transformer with 2.7 billion parameters. It was trained using the same data sources as Phi-1.5, augmented with a new data source that consists of various NLP synthetic texts and filtered websites (for safety and educational value). When assessed against benchmarks testing common sense, language understanding, and logical reasoning, Phi-3 showcased a nearly state-of-the-art performance among models with less than 13 billion parameters.",
+    "author": "Microsoft",
+    "publisher": {
+        "name": "Microsoft",
+        "url": "https://huggingface.co/microsoft"
+    },
+    "license": "MIT",
+    "tags": "transformer safetensors phi-msft text-generation nlp code custom_code en license:mit autotrain_compatible has_space region:us",
+    "task_type": [
+        "text-generation"
+    ],
+    "languages": [
+        "en"
+    ],
+    "model_size": "3.8b",
+    "context_size": 4096,
+    "tensor_type": "float16",
+    "base_model": "none",
+    "model_type": "phi-msft",
+    "library": "PyTorch",
+    "private": false,
+    "featured": true,
+    "use_cases": "The model is intended for commercial and research use in English. The model provides uses for applications which require memory/compute constrained environments latency bound scenarios strong reasoning (especially math and logic) long context Our model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features. ",
+    "out_of_scope_use_cases": "Limited Scope for code: Majority of Phi-3 training data is based in Python and use common packages such as 'typing, math, random, collections, datetime, itertools'. If the model generates Python scripts that utilize other packages or scripts in other languages, we strongly recommend users manually verify all API uses.",
+    "bias_risks_limitations": "Like other language models, the Phi series models can potentially behave in ways that are unfair, unreliable, or offensive.",
+    "repository": "https://huggingface.co/microsoft/phi-3",
+    "download": "https://huggingface.co/microsoft/phi-3",
+    "include": [
+        {
+            "name": "Phi-3-mini-4k-instruct-fp16.gguf",
+            "recommendations": "Largest, not quantized extremely low quality loss - not recommended for most purposes",
+            "bits": 16,
+            "size": 7.64,
+            "sha": "8fb08713c270f80793074cf30964e61cc2bccd6b4e1e5fd73a895a9bbecb7ac0",
+            "file_size": 7643301888,
+            "download": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/raw/main/Phi-3-mini-4k-instruct-fp16.gguf"
+        },
+        {
+            "name": "Phi-3-mini-4k-instruct-q4.gguf",
+            "recommendations": "medium, balanced quality - recommended",
+            "quantization": "Q4_K_M",
+            "bits": 4,
+            "size": 2.32,
+            "recommended": true,
+            "sha": "1cd9a9df07350196623f93bf4829cf228959e07ad32f787b8fdd7f5956f5b9de",
+            "file_size": 2318919200,
+            "download": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/blob/main/Phi-3-mini-4k-instruct-q4.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q2_K.gguf",
+            "recommendations": "smallest, significant quality loss - not recommended for most purposes",
+            "quantization": "Q2_K",
+            "bits": 2,
+            "size": 1.45,
+            "sha": "08928f542fe145d26ea44249f123487271c9d372cba0a94d23bef5a546b7a86f",
+            "file_size": 1446879616,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q2_K.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q3_K_S.gguf",
+            "recommendations": "very small, high quality loss",
+            "quantization": "Q3_K_S",
+            "bits": 3,
+            "size": 1.68,
+            "sha": "145598bc4cff45095e500a228ceb4736c85a739a0a1bd495445bf214b6e9070a",
+            "file_size": 1681803136,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q3_K_S.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q3_K_M.gguf",
+            "recommendations": "very small, high quality loss",
+            "quantization": "Q3_K_M",
+            "bits": 3,
+            "size": 1.88,
+            "sha": "77952309d6929d52ec11d34bfc5f7ab22f7317087892c334626527cdf0dcd4ed",
+            "file_size": 1877624704,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q3_K_M.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q3_K_L.gguf",
+            "recommendations": "small, substantial quality loss",
+            "quantization": "Q3_K_L",
+            "bits": 3,
+            "size": 2.05,
+            "sha": "0496776c4cb6ce732552e039b7f64e1702bf0b942d963fbdf36652fb985a4933",
+            "file_size": 2045134720,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q3_K_L.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q4_0.gguf",
+            "recommendations": "legacy; small, very high quality loss - prefer using Q3_K_M",
+            "quantization": "Q4_0",
+            "bits": 4,
+            "size": 2.18,
+            "deprecated": true,
+            "sha": "eaf1acc4ea062662291851b3dfaf37308183fe718c66ef1bca6b1313f6174648",
+            "file_size": 2176181632,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_0.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q4_K_S.gguf",
+            "recommendations": "small, greater quality loss",
+            "quantization": "Q4_K_S",
+            "bits": 4,
+            "size": 2.19,
+            "sha": "8fb84fb36191169e46ff8a73c10f168b7a1f756cde5c81d985dd524ec7fa7432",
+            "file_size": 2193483136,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_K_S.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q4_K_M.gguf",
+            "recommendations": "medium, balanced quality - recommended",
+            "quantization": "Q4_K_M",
+            "bits": 4,
+            "size": 2.32,
+            "recommended": true,
+            "sha": "4fed7364ee3e0c7cb4fe0880148bfdfcd1b630981efa0802a6b62ee52e7da97e",
+            "file_size": 2318919040,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q4_K_M.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q5_0.gguf",
+            "recommendations": "legacy; medium, balanced quality - prefer using Q4_K_M",
+            "quantization": "Q5_0",
+            "bits": 5,
+            "size": 2.64,
+            "deprecated": true,
+            "sha": "a42350d48d8b0d8bde4ed764c361609b1e3d51a10263bb407b177ae1ab694377",
+            "file_size": 2641479040,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_0.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q5_K_S.gguf",
+            "recommendations": "large, low quality loss - recommended",
+            "quantization": "Q5_K_S",
+            "bits": 5,
+            "size": 2.64,
+            "recommended": true,
+            "sha": "276449866217a16a91b8264cd97e20e6178de28995afe78a99d9f8fc8821c32f",
+            "file_size": 2641479040,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_K_S.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q5_K_M.gguf",
+            "recommendations": "large, very low quality loss - recommended",
+            "quantization": "Q5_K_M",
+            "bits": 5,
+            "size": 2.72,
+            "recommended": true,
+            "sha": "231e50055db793cfefb394b18eceb92166f749ca1d55ad472153eca29640cf68",
+            "file_size": 2715010432,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q5_K_M.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q6_K.gguf",
+            "recommendations": "very large, extremely low quality loss",
+            "quantization": "Q6_K",
+            "bits": 6,
+            "size": 3.14,
+            "sha": "2f757f37bf8178e3d54410eedfa05e91f28fa9aa051e2508a10e70acc67b0725",
+            "file_size": 3135857536,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q6_K.gguf"
+        },
+        {
+            "name": "phi-3-mini-4k-instruct.Q8_0.gguf",
+            "recommendations": "very large, extremely low quality loss",
+            "quantization": "Q8_0",
+            "bits": 8,
+            "size": 4.06,
+            "sha": "d8e99a77bec94f65e623b5c126f8210a9b98924310351e0eed245b81a5d2a93f",
+            "file_size": 4061226880,
+            "download": "https://huggingface.co/martineden/Phi-3-mini-4k-instruct-GGUF/resolve/main/phi-3-mini-4k-instruct.Q8_0.gguf"
+        }
+    ]
+}
