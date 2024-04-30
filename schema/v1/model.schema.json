@@ -148,6 +148,10 @@
                     "type": "string",
                     "description": "The size of tensors used in the model"
                 },
+                "chat_template": {
+                    "type": "string",
+                    "description": "Template for chat used in the model"
+                },
                 "context_size": {
                     "type": "number",
                     "description": "The number of tokens the model can process at once."
