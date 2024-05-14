@@ -1,0 +1,36 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" version="1.1">
+ <title>Mistral AI</title>
+
+ <g>
+  <title>Layer 1</title>
+  <rect rx="32" id="svg_28" height="512" width="512" y="0" x="0" fill="#e5e5e5"/>
+  <g id="svg_1">
+   <rect id="svg_2" height="56.14545" width="58.36364" y="106" x="319.45455" fill="#000000"/>
+   <rect id="svg_3" height="56.14545" width="58.36364" y="106" x="348.63636" fill="#F7D046"/>
+   <rect id="svg_4" height="56.14545" width="58.36364" y="106" x="86" fill="#000000"/>
+   <rect id="svg_5" height="56.14545" width="58.36364" y="162.14546" x="86" fill="#000000"/>
+   <rect id="svg_6" height="56.14545" width="58.36364" y="218.29091" x="86" fill="#000000"/>
+   <rect id="svg_7" height="56.14545" width="58.36364" y="274.43636" x="86" fill="#000000"/>
+   <rect id="svg_8" height="56.14545" width="58.36364" y="330.58182" x="86" fill="#000000"/>
+   <rect id="svg_9" height="56.14545" width="58.36364" y="106" x="115.18182" fill="#F7D046"/>
+   <rect id="svg_10" height="56.14545" width="58.36364" y="162.14546" x="348.63636" fill="#F2A73B"/>
+   <rect id="svg_11" height="56.14545" width="58.36364" y="162.14546" x="115.18182" fill="#F2A73B"/>
+   <rect id="svg_12" height="56.14545" width="58.36364" y="162.14546" x="261.09091" fill="#000000"/>
+   <rect id="svg_13" height="56.14545" width="58.36364" y="162.14546" x="290.27273" fill="#F2A73B"/>
+   <rect id="svg_14" height="56.14545" width="58.36364" y="162.14546" x="173.54545" fill="#F2A73B"/>
+   <rect id="svg_15" height="56.14545" width="58.36364" y="218.29091" x="231.90909" fill="#EE792F"/>
+   <rect id="svg_16" height="56.14545" width="58.36364" y="218.29091" x="290.27273" fill="#EE792F"/>
+   <rect id="svg_17" height="56.14545" width="58.36364" y="218.29091" x="173.54545" fill="#EE792F"/>
+   <rect id="svg_18" height="56.14545" width="58.36364" y="274.43636" x="202.72727" fill="#000000"/>
+   <rect id="svg_19" height="56.14545" width="58.36364" y="274.43636" x="231.90909" fill="#EB5829"/>
+   <rect id="svg_20" height="56.14545" width="58.36364" y="218.29091" x="348.63636" fill="#EE792F"/>
+   <rect id="svg_21" height="56.14545" width="58.36364" y="218.29091" x="115.18182" fill="#EE792F"/>
+   <rect id="svg_22" height="56.14545" width="58.36364" y="274.43636" x="319.45455" fill="#000000"/>
+   <rect id="svg_23" height="56.14545" width="58.36364" y="274.43636" x="348.63636" fill="#EB5829"/>
+   <rect id="svg_24" height="56.14545" width="58.36364" y="330.58182" x="319.45455" fill="#000000"/>
+   <rect id="svg_25" height="56.14545" width="58.36364" y="274.43636" x="115.18182" fill="#EB5829"/>
+   <rect id="svg_26" height="56.14545" width="58.36364" y="330.58182" x="348.63636" fill="#EA3326"/>
+   <rect id="svg_27" height="56.14545" width="58.36364" y="330.58182" x="115.18182" fill="#EA3326"/>
+  </g>
+ </g>
+</svg>

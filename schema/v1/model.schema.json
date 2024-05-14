@@ -63,6 +63,9 @@
                     "type": "string",
                     "description": "The version of the model"
                 },
+                "icon": {
+                    "$ref": "#/definitions/icon"
+                },
                 "creator": {
                     "type": "string",
                     "description": "The creator of the model, it is a unique identifier"
@@ -272,6 +275,29 @@
                         "email": {
                             "type": "string",
                             "format": "email"
+                        },
+                        "url": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    }
+                }
+            ]
+        },
+        "icon": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "uri"
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "color": {
+                            "type": "string"
                         },
                         "url": {
                             "type": "string",
