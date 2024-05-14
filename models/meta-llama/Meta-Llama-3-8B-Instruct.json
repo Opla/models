@@ -8,6 +8,7 @@
     "summary": "Llama 3 8B Instruct is a large language model fine-tuned for dialogue use cases.",
     "description": "Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes. The Llama 3 instruction tuned models are optimized for dialogue use cases and outperform many of the available open source chat models on common industry benchmarks. Further, in developing these models, we took great care to optimize helpfulness and safety. ",
     "author": "AI Research by Meta",
+    "icon": "https://opla.github.io/models/assets/meta-llama3.svg",
     "publisher": {
         "name": "meta-llama",
         "url": "https://huggingface.co/meta-llama"

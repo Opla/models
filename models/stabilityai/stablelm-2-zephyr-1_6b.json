@@ -7,6 +7,7 @@
     "version": "0.1.0",
     "description": "Stable LM 2 Zephyr 1.6B is a 1.6 billion parameter instruction tuned language model inspired by HugginFaceH4's Zephyr 7B training pipeline. The model is trained on a mix of publicly available datasets and synthetic datasets, utilizing Direct Preference Optimization (DPO).",
     "author": "stabilityai",
+    "icon": "https://opla.github.io/models/assets/stability-ai.svg",
     "publisher": {
         "name": "stabilityai",
         "url": "https://huggingface.co/stabilityai"
